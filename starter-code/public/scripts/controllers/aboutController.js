@@ -6,7 +6,7 @@ var app = app || {};
 
   // TODO: Define a function that hides all main section elements, and then reveals just the #about section:
   aboutController.aboutBlast = function () {
-    $('main').hide();
+    $('.tab-content').hide();
     $('#about').show();
   }
   module.aboutController = aboutController;
